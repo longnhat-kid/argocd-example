@@ -9,7 +9,7 @@ spec:
     server: "https://kubernetes.default.svc"
   project: default
   source: 
-    path: guestbook
+    path: argocd-example-apps/guestbook
     repoURL: "https://github.com/longnhat-kid/argocd-example"
     targetRevision: main
   syncPolicy:
